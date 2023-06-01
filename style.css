@@ -27,12 +27,16 @@ body{
     gap: 1rem;
     padding: .5rem;
 }
-.nav-bar >h4{
+a >h4{
     color: white;
     cursor: pointer;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration: none;
 }
 
-.nav-bar >h4:hover{
+a >h4:hover{
     color: blueviolet;
     
 }
@@ -64,4 +68,42 @@ body{
     line-height: 32px;
     text-align: justify;
     padding-top: 3rem;
+}
+/* aqui inicia la sesion de habilidades */
+
+.habilidades{
+    
+    padding:5rem;
+}
+.habilidades-title{
+    margin-bottom: 3rem;
+}
+.mishabilidades{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.img-habilidades{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+.row1> img{
+    width: 50px;
+    margin-top: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(150, 146, 146);
+}
+.row2> img{
+    width: 50px;
+    margin-top: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(150, 146, 146);
+}
+.row3> img{
+    width: 50px;
+    margin-top: .5rem;
+    box-shadow: 1px 1px 10px 1px rgb(150, 146, 146);
 }
