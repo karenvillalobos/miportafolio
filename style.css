@@ -1,4 +1,7 @@
 /* reseteo general */
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -16,6 +19,7 @@ body{
     padding: .5rem;
     box-shadow: 1px 1px 10px 1px black;
     position: fixed;
+    
     left: 0%;
     right: 0%;
     
