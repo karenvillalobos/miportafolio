@@ -107,3 +107,26 @@ a >h4:hover{
     margin-top: .5rem;
     box-shadow: 1px 1px 10px 1px rgb(150, 146, 146);
 }
+/*aqui inicia la sesion de portafolio*/
+
+.img_proyect1{
+
+    width: 400px;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 1rem;
+}
+.mi_portafolio{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+}
+.parrafo-portafolio{
+    margin-bottom: 2rem;
+
+}
+
